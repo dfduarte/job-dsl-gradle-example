@@ -20,6 +20,14 @@ job("$basePath/grails-example-build") {
     }
 }
 
+job("teste333"){
+    
+    steps{
+        shell 'meu primeiro build gerado pelo numero $BUILD_NUMBER
+    }
+    
+}
+
 job("$basePath/grails-example-deploy") {
     parameters {
         stringParam 'host'
