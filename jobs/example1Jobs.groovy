@@ -20,7 +20,7 @@ job("$basePath/grails-example-build") {
     }
 }
 
-job("teste333"){
+job('teste333'){
     
     steps{
         shell 'meu primeiro build gerado pelo numero $BUILD_NUMBER
